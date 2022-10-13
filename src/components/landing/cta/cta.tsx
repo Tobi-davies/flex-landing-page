@@ -13,7 +13,7 @@ const Cta = () => {
     >
       <div className="max-w-128 mx-auto px-5 md:px-10">
         <div
-          className="bg-darkBg rounded-md px-7  py-6 flex flex-col gap-4 items-center justify-between sm:px-14 lg:flex-row md:px-24 md:py-10 lg:gap-0"
+          className="bg-darkBg rounded-md px-7  py-6 flex flex-col gap-4 items-center justify-between sm:px-14 lg:flex-row md:px-24 md:py-12 lg:gap-0"
           style={{
             backgroundImage: `url(
             ${shared.ctaPattern}
@@ -23,18 +23,24 @@ const Cta = () => {
           }}
         >
           <div className="w-full lg:w-6/12 flex flex-col gap-2">
-            <h3 className="text-3xl text-center font-bold text-white lg:max-w-sm lg:text-start">
+            <h3 className="text-2xl md:text-3xl text-center font-semibold md:font-bold text-white lg:max-w-sm lg:text-start">
               The fastest way from idea to live site. Period.
             </h3>
-            <p className="text-base text-center font-medium text-lightGrey lg:max-w-sm lg:text-start">
+            <p className="text-sm md:text-base text-center font-medium text-lightGrey lg:max-w-sm lg:text-start">
               Flex is a Small SaaS Business. Flex isn’t a traditional company.
             </p>
           </div>
           <div className="w-full lg:w-6/12 flex gap-6 justify-center lg:justify-end">
-            <Button type="primary" className="text-sm px-4 py-3">
+            <Button
+              type="primary"
+              className="text-sm px-3 py-2 md:px-4 md:py-3"
+            >
               Get Started
             </Button>
-            <Button type="secondary" className="text-sm px-4 py-3">
+            <Button
+              type="secondary"
+              className="text-sm px-3 py-2 md:px-4 md:py-3"
+            >
               Learn More
             </Button>
           </div>

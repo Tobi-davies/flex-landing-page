@@ -24,7 +24,7 @@ const Testimonial = () => {
             <span className="text-[10px] text-green bg-lightGreen py-px px-1.5 rounded-3xl">
               QUOTES
             </span>
-            <div className="text-3xl text-white font-semibold pb-4 mt-1 leading-10">
+            <div className="text-2xl md:text-3xl text-white font-semibold pb-4 mt-1 md:leading-10">
               The best solution for anyone who wants to work a flexible schedule
               but still earn a full-time income.
             </div>

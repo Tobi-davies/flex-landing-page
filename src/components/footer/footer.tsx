@@ -20,7 +20,8 @@ const Footer = () => {
               Launch your own Software As A Service Application with Flex
               Solutions.
             </p>
-            <ul className="flex flex-wrap gap-x-6 gap-y-2 justify-center md:justify-start md:gap-7 lg:gap-11">
+            {/* <ul className="flex flex-wrap gap-x-6 gap-y-2 justify-center md:justify-start md:gap-7 lg:gap-11"> */}
+            <ul className="flex flex-col items-center gap-x-6 gap-y-2 justify-center sm:flex-row sm:flex-wrap sm:items-start md:justify-start md:gap-7 lg:gap-11">
               {footerLinks.map((link, i) => {
                 return (
                   <li key={i} className="text-lightGrey font-medium text-sm">

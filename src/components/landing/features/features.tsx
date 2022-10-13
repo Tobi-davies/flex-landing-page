@@ -10,7 +10,7 @@ const Features = () => {
             ${shared.bgPattern}
           )`,
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "cover",
+        backgroundPosition: "contain",
       }}
       className="bg-greyBg"
     >
@@ -50,7 +50,11 @@ const Features = () => {
             return (
               <div key={i} className="flex flex-col items-center w-full">
                 <figure className="mb-3">
-                  <img src={featureItem.image} alt={featureItem.title} />
+                  <img
+                    src={featureItem.image}
+                    alt={featureItem.title}
+                    width="80%"
+                  />
                 </figure>
                 <h3 className="text-xl text-secondaryText font-bold mb-2 text-center">
                   {featureItem.title}
