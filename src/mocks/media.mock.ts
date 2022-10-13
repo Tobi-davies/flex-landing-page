@@ -31,6 +31,10 @@ const landing = {
   testimonial: {
     headshot:
       "https://res.cloudinary.com/dgrebgb5n/image/upload/v1665611566/flex/Darren-dunlap_va0cs1.png",
+    leftQuote:
+      "https://res.cloudinary.com/dgrebgb5n/image/upload/v1665699737/flex/left-quote_krhbny.svg",
+    rightQuote:
+      "https://res.cloudinary.com/dgrebgb5n/image/upload/v1665699737/flex/right-quote_hyddyv.svg",
   },
   footer: {
     playStore:
