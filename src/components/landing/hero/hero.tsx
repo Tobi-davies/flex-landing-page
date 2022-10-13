@@ -18,12 +18,12 @@ const Hero = () => {
         }}
         className="bg-greyBg"
       >
-        <div className="max-w-128 mx-auto px-10 pt-20 pb-52">
-          <div className="max-w-[650px] mx-auto pb-10">
-            <h1 className="text-[3.2rem] text-secondaryText text-center font-bold leading-none mb-4">
+        <div className="max-w-128 mx-auto px-5 pt-14 pb-52 md:px-10 md:pt-20">
+          <div className="max-w-lg md:max-w-[650px] mx-auto pb-10">
+            <h1 className="text-4xl text-secondaryText text-center font-bold leading-none mb-4 lg:text-[3.2rem]">
               A small business is only as good as its tools.
             </h1>
-            <p className="text-lg text-primaryText text-center font-medium mb-4">
+            <p className="text-base text-primaryText text-center font-medium mb-4 md:text-lg">
               We’re different. Flex is the only saas business platform that lets
               you run your business on one platform, seamlessly across all
               digital channels.

@@ -31,16 +31,10 @@ const Cta = () => {
             </p>
           </div>
           <div className="w-full lg:w-6/12 flex gap-6 justify-center lg:justify-end">
-            <Button
-              type="primary"
-              className="text-sm px-3 py-2 md:px-4 md:py-3"
-            >
+            <Button type="primary" className="text-sm px-3 py-3 md:px-4">
               Get Started
             </Button>
-            <Button
-              type="secondary"
-              className="text-sm px-3 py-2 md:px-4 md:py-3"
-            >
+            <Button type="secondary" className="text-sm px-3 py-3 md:px-4">
               Learn More
             </Button>
           </div>

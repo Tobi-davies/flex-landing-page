@@ -18,7 +18,7 @@ const Features = () => {
         <h2 className="text-center text-3xl font-bold text-secondaryText mb-3">
           Gain more insight into how people use your
         </h2>
-        <p className="text-center max-w-[830px] mx-auto text-lg font-medium text-primaryText mb-14">
+        <p className="text-center max-w-[830px] mx-auto text-base md:text-lg font-medium text-primaryText mb-14">
           With our integrated CRM, project management, collaboration and
           invoicing capabilities, you can manage every aspect of your business
           in one secure platform.

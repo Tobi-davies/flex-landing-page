@@ -10,7 +10,7 @@ const Header = () => {
   const { headerLinks } = navLinks;
   return (
     <div className="bg-greyBg">
-      <div className="max-w-128 mx-auto px-9 py-3 border border-slate-300 flex items-center justify-between">
+      <div className="max-w-128 mx-auto px-5 md:px-9 py-3 flex items-center justify-between">
         <img src={header.logo} alt="logo" />
         <ul className="hidden md:flex gap-10">
           {headerLinks.map((navItem, i) => {
@@ -31,7 +31,7 @@ const Header = () => {
         </div>
 
         {/* mobile menu */}
-        <GiHamburgerMenu className="text-2xl md:hidden" />
+        <GiHamburgerMenu className="text-2xl md:hidden" cursor="pointer" />
       </div>
     </div>
   );
