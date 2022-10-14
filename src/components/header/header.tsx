@@ -58,7 +58,7 @@ const Header = () => {
 
 export default Header;
 
-export function MobileNav({ setIsMobile }) {
+export function MobileNav({ setIsMobile }: any) {
   const unlockScroll = React.useCallback(() => {
     document.body.style.overflow = "";
   }, []);
