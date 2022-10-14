@@ -51,7 +51,13 @@ const Features = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-10">
           {featuresList.map((featureItem, i) => {
             return (
-              <div key={i} className="flex flex-col items-center w-full">
+              <div
+                key={i}
+                className="flex flex-col items-center w-full"
+                data-aos={featureItem.anim}
+                data-aos-duration="600"
+                data-aos-once="true"
+              >
                 <figure className="mb-3">
                   <img
                     src={featureItem.image}
