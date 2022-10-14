@@ -35,7 +35,9 @@ const Header = () => {
             })}
           </ul>
           <div className="hidden md:flex gap-6 items-center">
-            <span className="text-sm text-primaryText font-medium">Log in</span>
+            <span className="text-sm text-primaryText font-medium cursor-pointer">
+              Log in
+            </span>
             <Button type="primary" className="text-xs px-3 py-2">
               Sign up
             </Button>
