@@ -41,28 +41,14 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      {/* <div className="bg-white relative px-10 pb-96">
-        <div className="absolute top-[-200px] left-[50%] ml-[-450px] mx-auto w-full md:w-[900px] pb-14">
-          <img
-            src={hero.main}
-            alt="hero-image"
 
-            //   height="auto" width="500px"
-          />
-        </div> */}
+      {/* DEMO VIDEO */}
       <div className="bg-white relative px-10 pb-[150px] sm:pb-[280px] md:px-10 md:pb-[340px]">
-        {/* <div className="absolute pb-14"> */}
         <div className="absolute top-[-100px] sm:top-[-170px] md:top-[-200px] left-[20px] right-[20px]">
           <figure className="flex justify-center">
-            <img
-              src={hero.main}
-              alt="hero-image"
-              width="800px"
-              //   height="auto" width="500px"
-            />
+            <img src={hero.main} alt="hero-image" width="800px" />
           </figure>
         </div>
-        {/* </div> */}
       </div>
     </>
   );

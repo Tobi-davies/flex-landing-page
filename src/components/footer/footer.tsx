@@ -1,4 +1,3 @@
-import React from "react";
 import { media, navLinks, socials } from "../../mocks";
 
 const Footer = () => {
@@ -31,6 +30,7 @@ const Footer = () => {
               Solutions.
             </p>
 
+            {/* footer links */}
             <ul className="flex flex-col items-center gap-x-6 gap-y-3 justify-center sm:flex-row sm:flex-wrap sm:items-start md:gap-y-1 md:justify-start md:gap-7 lg:gap-11">
               {footerLinks.map((link, i) => {
                 return (
@@ -41,7 +41,7 @@ const Footer = () => {
               })}
             </ul>
           </div>
-          <div className="w-full flex flex-row  items-end gap-5 mt-5 justify-center md:w-3/12 md:flex-col md:justify-start md:pr-8 md:mt-0">
+          <div className="w-full flex flex-row items-end gap-5 mt-5 justify-center md:w-3/12 md:flex-col md:justify-start md:pr-8 md:mt-0">
             <figure>
               <img src={footer.playStore} alt="google play" width="150px" />
             </figure>
@@ -58,6 +58,8 @@ const Footer = () => {
         <p className="text-lightGrey text-sm">
           © 2021 Flex. All rights reserved.
         </p>
+
+        {/* social media icons */}
         <div className="flex gap-8 mb-3 md:mb-0">
           {socials.map((icon, i) => {
             return (

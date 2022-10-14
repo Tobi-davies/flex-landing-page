@@ -1,8 +1,8 @@
 import React from "react";
+import { CgClose } from "react-icons/cg";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { media, navLinks } from "../../mocks";
 import Button from "../../shared/button/button";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { CgClose } from "react-icons/cg";
 
 const Header = () => {
   const {
@@ -20,7 +20,9 @@ const Header = () => {
     <>
       <div className="bg-greyBg">
         <div className="max-w-128 mx-auto px-5 md:px-9 py-4 flex items-center justify-between">
+          {/* LOGO */}
           <img src={header.logo} alt="logo" />
+          {/* NAV LINKS */}
           <ul className="hidden md:flex gap-10">
             {headerLinks.map((navItem, i) => {
               return (
@@ -58,6 +60,7 @@ const Header = () => {
 
 export default Header;
 
+//Mobile nav
 export function MobileNav({ setIsMobile }: any) {
   const unlockScroll = React.useCallback(() => {
     document.body.style.overflow = "";
@@ -87,7 +90,7 @@ export function MobileNav({ setIsMobile }: any) {
           {headerLinks.map((navItem, i) => {
             return (
               <li key={i}>
-                <a href="#" className="text-sm text-primaryText font-medium">
+                <a href="#" className="text-base text-primaryText font-medium">
                   {navItem.title}
                 </a>
               </li>
@@ -97,7 +100,7 @@ export function MobileNav({ setIsMobile }: any) {
 
         <div className="flex flex-col gap-10 items-center">
           <span className="text-sm text-primaryText font-medium">Log in</span>
-          <Button type="primary" className="text-xs px-3 py-2">
+          <Button type="primary" className="text-base px-6 py-3">
             Sign up
           </Button>
         </div>

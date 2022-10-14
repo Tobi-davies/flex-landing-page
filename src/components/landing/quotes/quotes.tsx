@@ -1,6 +1,6 @@
 import { media } from "../../../mocks";
 
-const Testimonial = () => {
+const Quotes = () => {
   const {
     landing: { testimonial },
   } = media;
@@ -66,4 +66,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default Quotes;

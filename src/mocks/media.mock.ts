@@ -64,6 +64,8 @@ const shared = {
     "https://res.cloudinary.com/dgrebgb5n/image/upload/v1665627981/flex/CTAPattern_o7rku8.svg",
   footerPattern:
     "https://res.cloudinary.com/dgrebgb5n/image/upload/v1665710261/flex/Pattern_Dark_1_ffmhxq.svg",
+  clientsBg:
+    "https://res.cloudinary.com/dgrebgb5n/image/upload/v1665746348/flex/Pattern_Light_wwc6ae.svg",
 };
 
 export const media = { landing, shared };

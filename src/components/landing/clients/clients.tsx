@@ -7,7 +7,7 @@ const Clients = () => {
     <div
       style={{
         backgroundImage: `url(
-            ${shared.pattern}
+            ${shared.clientsBg}
           )`,
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
