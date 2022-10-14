@@ -9,13 +9,13 @@ const Footer = () => {
   const { footerLinks } = navLinks;
   return (
     <div
-      className="bg-darkBg py-10 md:py-16"
+      className="bg-secondaryText py-10 md:py-16"
       style={{
         backgroundImage: `url(
           ${shared.footerPattern}
         )`,
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "cover",
+        backgroundPosition: "contain",
       }}
     >
       <div className="max-w-128 mx-auto px-5 md:px-10">

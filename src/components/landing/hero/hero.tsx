@@ -18,7 +18,7 @@ const Hero = () => {
         }}
         className="bg-greyBg"
       >
-        <div className="max-w-128 mx-auto px-5 pt-14 pb-52 md:px-10 md:pt-20">
+        <div className="max-w-128 mx-auto px-5 pt-14 pb-32 sm:pb-44 md:pb-52 md:px-10 md:pt-20">
           <div className="max-w-lg md:max-w-[650px] mx-auto pb-10">
             <h1 className="text-4xl text-secondaryText text-center font-bold leading-none mb-4 lg:text-[3.2rem]">
               A small business is only as good as its tools.
@@ -41,7 +41,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white relative px-10 pb-96">
+      {/* <div className="bg-white relative px-10 pb-96">
         <div className="absolute top-[-200px] left-[50%] ml-[-450px] mx-auto w-full md:w-[900px] pb-14">
           <img
             src={hero.main}
@@ -49,7 +49,20 @@ const Hero = () => {
 
             //   height="auto" width="500px"
           />
+        </div> */}
+      <div className="bg-white relative px-10 pb-[150px] sm:pb-[280px] md:px-10 md:pb-[340px]">
+        {/* <div className="absolute pb-14"> */}
+        <div className="absolute top-[-100px] sm:top-[-170px] md:top-[-200px] left-[20px] right-[20px]">
+          <figure className="flex justify-center">
+            <img
+              src={hero.main}
+              alt="hero-image"
+              width="800px"
+              //   height="auto" width="500px"
+            />
+          </figure>
         </div>
+        {/* </div> */}
       </div>
     </>
   );
