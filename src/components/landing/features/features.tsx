@@ -14,8 +14,11 @@ const Features = () => {
       }}
       className="bg-greyBg"
     >
-      <div className="max-w-128 mx-auto px-5 pt-10 pb-10 md:px-10 md:pt-20 md:pb-20">
-        <h2 className="text-center text-3xl font-bold text-secondaryText mb-3">
+      <div className="max-w-128 mx-auto px-5 pt-10 pb-10 md:px-10 md:pt-20 md:pb-20 text-center">
+        <span className="text-[10px] text-green bg-lightGreen py-px px-1.5 rounded-3xl">
+          FEATURES
+        </span>
+        <h2 className="text-center text-3xl font-bold text-secondaryText mb-3 mt-2">
           Gain more insight into how people use your
         </h2>
         <p className="text-center max-w-[830px] mx-auto text-base md:text-lg font-medium text-primaryText mb-14">

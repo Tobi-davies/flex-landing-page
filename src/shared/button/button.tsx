@@ -2,8 +2,6 @@ interface Props {
   type: "primary" | "secondary";
   children: React.ReactNode;
   className?: string;
-  // onClick: () => void;
-  // className?: string;
 }
 
 const Button = ({ children, type, className }: Props) => {
@@ -11,7 +9,7 @@ const Button = ({ children, type, className }: Props) => {
     <button
       className={`rounded-md font-medium ${className} ${
         type === "primary"
-          ? "bg-green text-primaryBtnText"
+          ? "bg-green text-primaryBtnText hover:bg-[#23ad55]"
           : "bg-white text-secBtnText border border-slate-300"
       }`}
     >

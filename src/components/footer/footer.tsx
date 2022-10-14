@@ -4,10 +4,20 @@ import { media, navLinks, socials } from "../../mocks";
 const Footer = () => {
   const {
     landing: { footer },
+    shared,
   } = media;
   const { footerLinks } = navLinks;
   return (
-    <div className="bg-darkBg py-10 md:py-16">
+    <div
+      className="bg-darkBg py-10 md:py-16"
+      style={{
+        backgroundImage: `url(
+          ${shared.footerPattern}
+        )`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "cover",
+      }}
+    >
       <div className="max-w-128 mx-auto px-5 md:px-10">
         <div className="mb-1 flex justify-center md:justify-start md:mb-3">
           <figure>
@@ -20,12 +30,12 @@ const Footer = () => {
               Launch your own Software As A Service Application with Flex
               Solutions.
             </p>
-            {/* <ul className="flex flex-wrap gap-x-6 gap-y-2 justify-center md:justify-start md:gap-7 lg:gap-11"> */}
-            <ul className="flex flex-col items-center gap-x-6 gap-y-2 justify-center sm:flex-row sm:flex-wrap sm:items-start md:justify-start md:gap-7 lg:gap-11">
+
+            <ul className="flex flex-col items-center gap-x-6 gap-y-3 justify-center sm:flex-row sm:flex-wrap sm:items-start md:gap-y-1 md:justify-start md:gap-7 lg:gap-11">
               {footerLinks.map((link, i) => {
                 return (
                   <li key={i} className="text-lightGrey font-medium text-sm">
-                    <a href="#">{link.title}</a>
+                    {link.title}
                   </li>
                 );
               })}
@@ -51,7 +61,7 @@ const Footer = () => {
         <div className="flex gap-8 mb-3 md:mb-0">
           {socials.map((icon, i) => {
             return (
-              <a href="#" key={i} className="cursor-pointer">
+              <a href="/" key={i} className="cursor-pointer">
                 <img src={icon.image} alt={icon.name} width="20px" />
               </a>
             );
