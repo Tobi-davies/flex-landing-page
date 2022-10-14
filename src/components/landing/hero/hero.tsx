@@ -18,9 +18,12 @@ const Hero = () => {
         }}
         className="bg-greyBg"
       >
-        <div className="max-w-128 mx-auto px-5 pt-14 pb-32 sm:pb-44 md:pb-52 md:px-10 md:pt-20">
-          <div className="max-w-lg md:max-w-[650px] mx-auto pb-10">
-            <h1 className="text-4xl text-secondaryText text-center font-bold leading-none mb-4 lg:text-[3.2rem]">
+        <div className="max-w-128 mx-auto px-5 pt-14 pb-32 sm:pb-44 md:pb-52 md:px-10 md:pt-18">
+          <div className="max-w-lg md:max-w-[650px] mx-auto pb-10 text-center">
+            <span className="hidden text-[10px] bg-green text-lightGreen py-px px-1.5 rounded-3xl md:inline-block">
+              HEADER
+            </span>
+            <h1 className="text-4xl text-secondaryText text-center font-bold leading-none mb-4 lg:text-[3.2rem] md:mt-3">
               A small business is only as good as its tools.
             </h1>
             <p className="text-base text-primaryText text-center font-medium mb-4 md:text-lg">
