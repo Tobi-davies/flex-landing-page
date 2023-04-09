@@ -26,9 +26,10 @@ const Quotes = () => {
             </span>
             <div
               className="text-2xl md:text-4xl text-white font-semibold pb-4 mt-1 md:leading-10"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-once="true"
+              // data-aos="fade-up"
+              // data-aos-duration="800"
+              // data-aos-once="true"
+              data-animation="header"
             >
               The best solution for anyone who wants to work a flexible schedule
               but still earn a full-time income.
@@ -39,19 +40,21 @@ const Quotes = () => {
           </figure>
           <p
             className="text-base font-semibold text-white"
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-once="true"
-            data-aos-delay="100"
+            // data-aos="fade-up"
+            // data-aos-duration="800"
+            // data-aos-once="true"
+            // data-aos-delay="100"
+            data-animation="header"
           >
             Darren Dunlap
           </p>
           <p
             className="text-sm text-darkGrey"
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-once="true"
-            data-aos-delay="150"
+            // data-aos="fade-up"
+            // data-aos-duration="800"
+            // data-aos-once="true"
+            // data-aos-delay="150"
+            data-animation="header"
           >
             CEO & Founder at Flex.co
           </p>

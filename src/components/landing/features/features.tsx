@@ -18,10 +18,16 @@ const Features = () => {
         <span className="text-[10px] text-green bg-lightGreen py-px px-1.5 rounded-3xl">
           FEATURES
         </span>
-        <h2 className="text-center text-3xl font-bold text-secondaryText mb-3 mt-2">
+        <h2
+          className="text-center text-3xl font-bold text-secondaryText mb-3 mt-2"
+          data-animation="header"
+        >
           Gain more insight into how people use your
         </h2>
-        <p className="text-center max-w-[830px] mx-auto text-base md:text-lg font-medium text-primaryText mb-14">
+        <p
+          className="text-center max-w-[830px] mx-auto text-base md:text-lg font-medium text-primaryText mb-14"
+          data-animation="paragraph"
+        >
           With our integrated CRM, project management, collaboration and
           invoicing capabilities, you can manage every aspect of your business
           in one secure platform.

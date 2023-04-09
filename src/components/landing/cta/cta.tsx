@@ -25,18 +25,20 @@ const Cta = () => {
           <div className="w-full lg:w-6/12 flex flex-col gap-2">
             <h3
               className="text-2xl md:text-3xl text-center font-semibold md:font-bold text-white lg:max-w-sm lg:text-start"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-once="true"
+              // data-aos="fade-up"
+              // data-aos-duration="800"
+              // data-aos-once="true"\
+              data-animation="header"
             >
               The fastest way from idea to live site. Period.
             </h3>
             <p
               className="text-sm md:text-base text-center font-medium text-lightGrey lg:max-w-sm lg:text-start"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              data-aos-duration="800"
-              data-aos-once="true"
+              // data-aos="fade-up"
+              // data-aos-delay="100"
+              // data-aos-duration="800"
+              // data-aos-once="true"
+              data-animation="paragraph"
             >
               Flex is a Small SaaS Business. Flex isn’t a traditional company.
             </p>
